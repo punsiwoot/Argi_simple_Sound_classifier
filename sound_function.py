@@ -34,7 +34,7 @@ def resample_wav(input_file, output_file, new_length, file=True):
 
             # Write the resampled audio data to the output file
             wav_out.writeframes(output_data)
-        print("write WAV data resampled successfully!")
+        # print("write WAV data resampled successfully!")
     else : return resampled_array
 
 def process_wav_to_image(dir_wav:str, dir_tar:str,visual = False, output ="write"):
